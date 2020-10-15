@@ -1,0 +1,21 @@
+{
+  "atari": true,
+  "entropy_beta": 0.01,
+  "env": "CartPole-v0",
+  "epoch": 100000,
+  "eps": 0.01,
+  "frame_num": 8,
+  "gamma": 0.99,
+  "local_t_max": 20,
+  "log_dir": "./log_dir",
+  "lr": 0.0007,
+  "monitor": false,
+  "num_process": 1,
+  "out_dim": 128,
+  "render": false,
+  "save_mode": "max",
+  "save_name": "exp",
+  "seed": 100,
+  "tau": 1.0,
+  "v_loss_coeff": 0.5
+}
