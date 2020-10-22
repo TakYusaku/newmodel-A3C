@@ -17,6 +17,8 @@ class Policy(nn.Module):
         self.p = nn.Linear(out_dim, num_actions)
         self.v = nn.Linear(out_dim, 1)
 
+        self.train()
+
     def forward(self, x):
         x = F.relu(self.head(x))
         policy = self.p(x)
